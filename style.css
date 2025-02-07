@@ -10,11 +10,45 @@ body,
 html {
     height: 100%;
     background-color: rgb(89, 89, 89);
+    scroll-behavior: smooth;
 }
 
-.navbar {
-    background-color: none;
-    color: white;
-    box-shadow: 20px white;
-    border-bottom: 5px solid black;
+.item{
+    height: 80px;
+    
 }
+
+.item a{
+    color: white;
+}
+.item a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.menu .active, .menu .item div:hover {
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: white;
+    transform: scale(1.16);
+    padding: 5px;
+    color: black;
+}
+
+
+/* .carousel-indicators button {
+    width: 10px; 
+    height: 10px; 
+    padding-right: 5px; 
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid black;
+  }
+  .carousel-indicators .active {
+    background-color: #000000; 
+  }
+*/
+  .carousel-item{
+    height:500px;
+    width: 100%;
+  } 
+
