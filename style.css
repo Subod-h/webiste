@@ -50,5 +50,50 @@ html {
   .carousel-item{
     height:500px;
     width: 100%;
-  } 
+    
+  }
 
+
+
+  #search-bar:focus{
+    border: 2px solid grey;
+    /* box-shadow: 10px 5px 40px black, 0px 0px 0px white;
+     */
+     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 30px -12px inset, rgba(0, 0, 0, 0.3) 0px 10px 6px -10px inset; */
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+
+  .search-icon{
+    position: relative;
+    font-size: 200rem;
+    top: 17px;
+    left: -50px;
+  }
+
+  .header{
+    font-size: 1.9rem;
+  }
+
+
+
+  .table-header-shadow{
+    box-shadow: rgba(5, 5, 255, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border: 2px solid grey;
+  }
+
+  td, th{
+    width: 2rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .card{
+    /* box-shadow: 0 27px 20px -19px rgba(122, 62, 134, .31); */
+    box-shadow: -15px 27px 20px -5px rgba(122, 62, 134, .31);
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 2rem 1rem;
+    margin: 3rem .5rem;
+    height: 340px;
+    font-size: 1.1rem;
+}
