@@ -104,6 +104,9 @@ html {
 }
 .card-body{
   font-size: 1.3rem;
+  text-align: center;
+  background-color: rgb(172, 172, 172);
+  border-radius: 5px;
 }
 
 /* Defines the width of the carousel and centers it on the page */
