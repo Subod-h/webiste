@@ -21,7 +21,7 @@ html {
 .item a{
     color: white;
 }
-.item a:hover{
+.item:hover a{
     color: rgb(0, 0, 0);
 }
 
@@ -95,18 +95,23 @@ html {
     padding: 2rem 1rem;
     margin: 3rem .5rem;
     height: 340px;
+    width: 21rem;
     font-size: 1.1rem;
 }
 .card-img{
-  width:8rem;
+  width:9rem;
   align-self: center;
   margin-bottom: 20px;
 }
 .card-body{
-  font-size: 1.3rem;
-  text-align: center;
   background-color: rgb(172, 172, 172);
-  border-radius: 5px;
+  border-radius: 15px;
+}
+
+.card-title{
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
 }
 
 /* Defines the width of the carousel and centers it on the page */
